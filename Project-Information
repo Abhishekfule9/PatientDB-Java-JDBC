@@ -1,0 +1,22 @@
+This is java based patient database operation project .
+In this project i use JDBC for the database connections and operation .
+If we want to run this project we need this add the drivers , database url , database username and database password.
+I give overview of this project :- in this peoject we will done operations like add patient data , view patient data , retrivive patient Data , update patient data, delete Update patient data.
+If you run this peoject in IDE then one window will apeare like this in below given 
+Connection Created !! 
+
+Welcom to Patient Database
+1) Add patient data
+2) View patient data
+3) Retrivive patient Data
+4) Update patient data
+5) Delete patient data
+6) Exit
+Please enter your Choice :: 
+
+If you will press the 1 then it will go to Case 1 (swtich case) will run in backend it will ask the some info like this ,
+Enter patient id :
+Enter patient Name :
+Enter patient Age :
+Enter patient contact Number :
+If you enter all this details and hit ENTER then data about this patient will add to database .  
