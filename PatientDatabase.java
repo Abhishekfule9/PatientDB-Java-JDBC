@@ -92,6 +92,21 @@ public class PatientDatabase
 					}
 					System.out.println("Data is retrived ");
 					break;
+				case 3:
+					System.out.println("\nWelcome to retriving particular patinet data");
+					System.out.println("Please enter patient id ");
+					String pat_Id=Sc.nextLine();
+					pstm3.setString(1, pat_Id);
+					ResultSet rs2 = pstm3.executeQuery();
+					if(rs2.next())
+					{
+						System.out.println(rs2.getString(1) + " "+ rs2.getString(2)+" "+ rs2.getInt(3) + " "+ rs2.getLong(4));
+					}
+					else
+					{
+						System.out.println("There is no Patient Id with this : "+pat_Id);
+					}
+					break;
 				default :System.out.println("You Entered invalid input ! ");
 				}
 			
