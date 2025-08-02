@@ -61,6 +61,6 @@ If you will press the 2 then it will go to Case 2 (swtich case) will run in back
 If you will press the 3 then it will go to Case 3 (swtich case) will run in backend it will ask the some info like this,
 Welcome to retriving particular patinet data
 Please enter patient id :: 
-you need to provide the id which is present in database then it show you that details 
+you need to provide the id which is present in database then it show you that details of that patient
 
 
