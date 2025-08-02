@@ -107,6 +107,28 @@ public class PatientDatabase
 						System.out.println("There is no Patient Id with this : "+pat_Id);
 					}
 					break;
+					
+				case 4 :
+					System.out.println("\nYou here for updating patinet data ");
+					
+					System.out.println("Please enter the patinet id :: ");
+					String p_Id= Sc.nextLine();
+					System.out.println("Please enter the patient age ");
+					int  pat_Age = Integer.parseInt(Sc.nextLine());
+					
+					pstm4.setString(2, p_Id);
+					pstm4.setInt(1, pat_Age);
+					
+					 int rowCount2 = pstm4.executeUpdate();
+					 if (rowCount2>0)
+					 {
+						 System.out.println("Patient Data Is Updated !! ");
+					 }
+					 else
+					 {
+						 System.out.println("Patient Data is Not Updated ! ");
+					 }
+					break;
 				default :System.out.println("You Entered invalid input ! ");
 				}
 			
