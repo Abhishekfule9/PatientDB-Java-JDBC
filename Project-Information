@@ -1,17 +1,17 @@
-# PatientDB - Java JDBC Project
+ PatientDB - Java JDBC Project
 
-This is a **Java-based Patient Database Management System** built using **JDBC** for connecting to an Oracle database. It allows users to add, view, retrieve, update, and delete patient records from the database using a console-based interface.
+This is a Java-based Patient Database Management System built using JDBCfor connecting to an Oracle database. 
+It allows users to add, view, retrieve, update, and delete patient records from the database using a console-based interface.
 
-
-## 💻 Technologies Used
+Technologies Used :- 
 - Java
 - JDBC (Java Database Connectivity)
 - Oracle Database (XE)
 - SQL
 
----
 
-## ⚙️ Prerequisites
+
+Prerequisites :-
 Before running this project, make sure you have:
 
 - Oracle Database installed and running
@@ -49,18 +49,14 @@ Welcom to Patient Database
 6) Exit
 Please enter your Choice :: 
 
-If you will press the 1 then it will go to Case 1 (swtich case) will run in backend it will ask the some info like this ,
-Enter patient id :
-Enter patient Name :
-Enter patient Age :
-Enter patient contact Number :
-If you enter all this details and hit ENTER then data about this patient will add to database .  
-
-If you will press the 2 then it will go to Case 2 (swtich case) will run in backend it will show you all the patient data which is present in database ,
-
-If you will press the 3 then it will go to Case 3 (swtich case) will run in backend it will ask the some info like this,
-Welcome to retriving particular patinet data
-Please enter patient id :: 
-you need to provide the id which is present in database then it show you that details of that patient
+Sample Operation Flow
+- Choosing 1: Enter patient id, name, age, contact → record inserted
+- Choosing 2: View all patients from the database
+- Choosing 3: Enter patient ID → shows that patient if exists
+- Choosing 4: Enter patient ID and new age → updates age
+- Choosing 5: Enter patient ID → deletes record if exists
+- Choosing 6: Exit the application
 
 
+
+.
