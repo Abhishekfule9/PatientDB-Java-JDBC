@@ -129,6 +129,30 @@ public class PatientDatabase
 						 System.out.println("Patient Data is Not Updated ! ");
 					 }
 					break;
+					
+				case 5:
+					System.out.println("\n You Are Here For Deleting Patient Data ");
+					System.out.println("Plese Enter the Patient Id :: ");
+					String  Pid=Sc.nextLine();
+					pstm5.setString(1, Pid);
+					
+					 int rowCount3 = pstm5.executeUpdate();
+					 if (rowCount3>0 )
+					 {
+						 System.out.println("Patient Data Is Deleted !! ");
+					 }
+					 else
+					 {
+						 System.out.println("There Is No Patient Data With this Id :  "+ Pid);
+						 
+					 }
+					 break;
+					 
+				case 6:
+					System.out.println("Thank You For Visiting\nSee You Soon !  ");
+					System.exit(0);
+					break;
+					
 				default :System.out.println("You Entered invalid input ! ");
 				}
 			
